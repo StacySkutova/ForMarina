@@ -13,12 +13,12 @@ public class SignInPage extends FactoryPage {
     @FindBy(id = "LogOnModel_Password")
     private WebElement passwordField;
 
-        public void signInEmailInput(){ signInEmailField.sendKeys(INVALID_EMAIL);}
-        public void goToPasswordField(){ passwordField.click(); }
+    public void signInEmailInput(){ signInEmailField.sendKeys(INVALID_EMAIL);}
+    public void goToPasswordField(){ passwordField.click(); }
 
 
     @Override
-    public void sendKeys(String invalidEmail) {
+    public void sendKeys(String string) {
 
     }
 }

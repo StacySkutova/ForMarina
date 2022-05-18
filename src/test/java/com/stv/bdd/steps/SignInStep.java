@@ -12,7 +12,6 @@ import io.cucumber.java.en.When;
 import java.util.concurrent.TimeUnit;
 
 public class SignInStep extends BasicFactoryTest {
-    ;
 
     SignInPage mySignInPage = new SignInPage();
     ErrorMessage errorMessage = new ErrorMessage();
