@@ -28,4 +28,5 @@ public class MainFactoryPage extends FactoryPage {
     public void sendKeys(String invalidEmail) {
 
     }
+
 }

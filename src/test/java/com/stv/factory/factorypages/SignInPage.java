@@ -14,12 +14,13 @@ public class SignInPage extends FactoryPage {
     private WebElement passwordField;
 
     public void signInEmailInput(){ signInEmailField.sendKeys(INVALID_EMAIL);}
-    public void goToPasswordField(){ passwordField.click(); }
 
+    public void goToPasswordField(){ passwordField.click(); }
 
     @Override
     public void sendKeys(String string) {
 
     }
+
 }
 

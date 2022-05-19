@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public abstract class FactoryPage {
-    private static WebDriver getDriver() {
+    static WebDriver getDriver() {
         return Driver.getDriver();
     }
     protected FactoryPage(){
@@ -13,4 +13,5 @@ public abstract class FactoryPage {
     }
 
     public abstract void sendKeys(String invalidEmail);
+
 }
