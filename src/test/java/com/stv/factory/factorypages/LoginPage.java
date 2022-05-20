@@ -10,10 +10,4 @@ public class LoginPage extends FactoryPage {
     public boolean isLoginContainerDisplayed() {
         return loginContainer.isDisplayed();
     }
-
-    @Override
-    public void sendKeys(String invalidEmail) {
-
-    }
 }
-

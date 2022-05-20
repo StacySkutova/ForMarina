@@ -11,22 +11,15 @@ public class MainFactoryPage extends FactoryPage {
     @FindBy(xpath = "//button[contains(text(),'Accept All Cookies')]")
     private WebElement trustButton;
 
-    public boolean isAccountLinkDisplayed(){
+    public boolean isAccountLinkDisplayed() {
         return accountLink.isDisplayed();
     }
 
-    public void clickOnAccountLink(){
+    public void clickOnAccountLink() {
         accountLink.click();
     }
 
-    public void clickOnTrustButton(){
+    public void clickOnTrustButton() {
         trustButton.click();
     }
-
-
-    @Override
-    public void sendKeys(String invalidEmail) {
-
-    }
-
 }

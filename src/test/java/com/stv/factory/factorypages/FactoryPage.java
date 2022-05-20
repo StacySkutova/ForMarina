@@ -11,7 +11,4 @@ public abstract class FactoryPage {
     protected FactoryPage(){
         PageFactory.initElements(getDriver(), this);
     }
-
-    public abstract void sendKeys(String invalidEmail);
-
 }
